@@ -11,7 +11,7 @@ user defined column.
 Install the package by running the following:
 
 ``` r
-devtools::install_github("UBC-STAT545-F2026/assignmentB2EuniceLi", ref = "0.1.0")
+devtools::install_github("UBC-STAT545-F2026/assignmentB2EuniceLi", ref = "0.1.1")
 ```
 
 ## Example

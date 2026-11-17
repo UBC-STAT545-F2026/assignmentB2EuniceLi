@@ -1,4 +1,4 @@
-#' @title Count missing values for all columns by group
+#' @title Count missing values for all columns optionally by group
 #'
 #' @description Given a data frame `data` and a
 #' column `group`, `countAll_missing_by_group()` creates

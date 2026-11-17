@@ -1,6 +1,6 @@
 Package: assignmentB2EuniceLi
 Title: Count Missing Optionally By Group
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person("Eunice", "Li", , "first.last@example.com", role = c("aut", "cre"))
 Description: This is the package created strictly for assignmentB2 and is the pre-baked function which creates a new data frame with counts of the total number of missing values in each column grouped by a user defined column.
