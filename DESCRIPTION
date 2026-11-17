@@ -1,5 +1,5 @@
 Package: assignmentB2EuniceLi
-Title: Count Missing By Group
+Title: Count Missing Optionally By Group
 Version: 0.1.0
 Authors@R: 
     person("Eunice", "Li", , "first.last@example.com", role = c("aut", "cre"))

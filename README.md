@@ -8,7 +8,7 @@ user defined column.
 
 ## Installation
 
-Install packages by running the following:
+Install the package by running the following:
 
 ``` r
 devtools::install_github("UBC-STAT545-F2026/assignmentB2EuniceLi", ref = "0.1.0")
