@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# assignmentB2EuniceLi
+
+This is the package created strictly for assignmentB2 and is the pre-baked 
+function which creates a new data frame with counts of the total number of missing 
+values in each column optionally grouped by a user defined column.
+
+## Installation
+
+Install packages by running the following: 
+
+``` r
+devtools::install_github("UBC-STAT545-F2026/assignmentB2EuniceLi", ref = "0.1.0")
+```
+
+## Example
+
+This is a basic example which shows you how to use this function:
+
+```{r example}
+library(assignmentB2EuniceLi)
+## basic example code
+countAll_missing_by_group(datasets::airquality,Wind)
+countAll_missing_by_group(datasets::airquality,Day)
+```
